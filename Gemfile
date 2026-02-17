@@ -11,3 +11,7 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+gem "csv"
+gem "bigdecimal"
+BUNDLED WITH
+   2.4.22

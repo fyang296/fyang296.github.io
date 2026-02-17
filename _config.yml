@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Fuliang Yang's Portfolio" # Update this with the title of your site
+title                    : "Fuliang Yang's Homepage" # Update this with the title of your site
 title_separator          : "-"
 name                     : &name "Fuliang Yang"
-description              : &description "Fuliang Yang's portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Fuliang Yang's Homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://fyang296.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,10 +23,10 @@ repository               : "fyang296/fyang296.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.jpg" # filename of avatar image placed in /images/ for the left-hand sidebar
   name             : "Fuliang Yang"
   pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #"Short biography for the left-hand sidebar"
   location         : "Madison, WI, USA"
   employer         : "University of Wisconsin-Madison"
   uri              : # URL
